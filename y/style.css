@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+}
+
+.mensagemDoJogo {
+  font-size: 26px;
+  color: #008000;
+}
+
+.removeMensagem {
+  display: none;
+}
+
+main {
+  position: absolute;
+  left: 50%;
+  right: 50;
+  transform: translate(-50%);
+}
+
+.dv {
+  border: 1px solid #000;
+  border-left: none;
+  border-top: none;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 30px;
+  height: 100px;
+  width: 100px
+}
+
+.borderRight {
+  border-right: none;
+}
+
+.borderBottom {
+  border-bottom: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+
